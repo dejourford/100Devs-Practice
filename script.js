@@ -34,4 +34,8 @@ function check(){
     else if (userInput == 'saturday' || userInput == 'sunday') {
         message.textContent = `It is ${userInput}! It's the weekend!`
     }
+
+    else {
+        message.textContent = 'Umm...that\'s not a day of the week!'
+    }
 }
